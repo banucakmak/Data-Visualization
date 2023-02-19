@@ -42,17 +42,17 @@ df.corr()
 
 ![image](https://user-images.githubusercontent.com/122751581/219974182-714e4603-e241-49d3-9df2-d719504286a6.png)
 
-### It seems that apprxmately 250 USD is spent on average
+ It seems that apprxmately 250 USD is spent on average
 
 ![image](https://user-images.githubusercontent.com/122751581/219974251-bf039d6d-25d7-4f4e-90fa-96a5dd117223.png)
 
 ![image](https://user-images.githubusercontent.com/122751581/219974290-1b1d992d-cab9-4a72-9975-48bbc847d338.png)
 
-### Gender and product distribution
+ Gender and product distribution
 
 ![image](https://user-images.githubusercontent.com/122751581/219974326-e7a0272a-687e-4d89-b1ed-a39a1bf34db5.png)
 
-### Each variable in the DataFrame is plotted against every other variable
+ Each variable in the DataFrame is plotted against every other variable
 
 
 ## Let's see which days and months sales are the highest
@@ -66,7 +66,7 @@ df.corr()
 ![image](https://user-images.githubusercontent.com/122751581/219974650-a139d87e-29ab-4e46-bef5-ab70ac0f6451.png)
 
 
- We can look through sales according to months, days, cities and customer type by "countplot" command. 
+ ### We can look through sales according to months, days, cities and customer type by "countplot" command. 
 
 sns.countplot(x=df["month_name"])
 
@@ -88,3 +88,6 @@ sns.countplot(x=df["Customer type"])
 ![image](https://user-images.githubusercontent.com/122751581/219974814-c6929dbe-d901-45ad-b57f-c6dd28207272.png)
 
  With this very simple code, we can see what is the shopping behavior of men and women according to branch category and months by the variables of hour and quantity.
+ 
+ 
+ I hope this sample codes help you when working on your project!!
