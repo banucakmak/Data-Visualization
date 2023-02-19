@@ -5,7 +5,8 @@ There are 3 packages to import before starting a data visualization.
 ![image](https://user-images.githubusercontent.com/122751581/219972009-1c091502-efce-4f18-b841-654cab8cd0bc.png)
 
 numpy automatically does the computing. 
-/It also provides a range of functions for performing operations on these arrays, such as mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, and much more.(by chat GPT)/
+
+It also provides a range of functions for performing operations on these arrays, such as mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, and much more
 
 ### Creating x,y,z arrays.
 42 is useful as a random seed value because we want to have the same numbers every time we run the code.
